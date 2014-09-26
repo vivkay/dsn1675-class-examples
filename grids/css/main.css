@@ -20,6 +20,10 @@ html {
 	box-sizing: inherit;
 }
 
+img {
+	width: 100%;
+}
+
 h2 {
 	margin: 0;
 }
