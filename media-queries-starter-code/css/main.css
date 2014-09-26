@@ -1,0 +1,131 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #f0dfb9;
+
+  font: normal 100%/1.5 Georgia,serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  display: block;
+  padding: 1.5em;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+
+  color: #4a3522;
+  font-size: 1.1250rem;
+  line-height: 1.3333;
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+figcaption {
+  bottom: 0;
+  padding: 0.8em;
+  width: 100%;
+
+  background-color: rgba(0,0,0,0.3);
+
+  color: #fff;
+  font-size: 0.8889rem;
+  font-style: italic;
+  line-height: 1.6875;
+}
+
+/* ====================================== */
+/*     DON'T TOUCH THE CSS ABOVE HERE     */
+/* ====================================== */
+
+@media only screen and (min-width: 30em) {
+	
+	.dino-primary {
+		display: block;
+	}
+	
+	.dino-primary figcaption {
+		position: absolute;
+	}
+	
+	.dino-secondary {
+		float: right;
+		width: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 40em) {
+		
+	.dino-primary {
+		float: left;
+		width: 30%;
+	}
+	
+	.dino-primary figcaption {
+		position: static;
+	}
+	
+	.dino-secondary {
+		float: left;
+		width: 33.3333%;
+	}
+	
+}
+
+@media only screen and (min-width: 50em) {
+	
+	.dino-primary {
+		float: left;
+		width: 33.3333%;
+	}
+	
+	.dino-primary figcaption {
+		position: absolute;
+	}
+	
+	.dino-secondary {
+		float: left;
+		width: 33.3333%;
+	}
+	
+	.dino-primary figcaption {
+		position: absolute;
+	}
+	
+		.dino-secondary figcaption {
+		position: absolute;
+	}
+
+}
