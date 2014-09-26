@@ -20,11 +20,23 @@ html {
 	box-sizing: inherit;
 }
 
+h2 {
+	margin: 0;
+}
+
 .grid {
 	background-color: red;
 }
 
 .unit {
 	background-color: green;
+	float: left;
+	width: 33.3333%;
 }
+
+.gutter {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 
